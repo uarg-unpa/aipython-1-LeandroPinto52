@@ -2,10 +2,11 @@
 flores = ["rosas", "orquídea", "lirio", "tulipan", "margarita", "dalia", "hortensia"]
 print(flores)
 #a. Mostrar tres elementos desde el tercer elemento.
-for i in range(len(flores)):
-    if i == 2:
-        print(flores[i + 1 : len(flores) - 1])
-        break
+#for i in range(len(flores)):
+    #if i == 2:
+        #print(flores[i + 1 : len(flores) - 1])
+        #break
+print(flores[2:6])
 
 #b. Mostrar los elementos en posiciones pares desde la segunda posición
 

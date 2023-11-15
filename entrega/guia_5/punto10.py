@@ -25,4 +25,9 @@ def palindromo(texto):
     return True
 #No pensé una forma más facil de hacerlo sin una Pila
 
-print(palindromo("Narran"))
+def esPalindromo(texto : str) -> bool:
+    texto = texto.lower()
+    return texto == texto[::-1]
+
+print(esPalindromo("Arene"))
+print(esPalindromo("Narran"))

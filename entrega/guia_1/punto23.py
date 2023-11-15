@@ -3,5 +3,6 @@
 
 texto = "    La ciencia es una ecuación diferencial. La religión es una condición de frontera.  "
 
-texto = texto.replace("  ", "")
+#texto = texto.replace("  ", "")
+texto = texto.strip()
 print(texto)
